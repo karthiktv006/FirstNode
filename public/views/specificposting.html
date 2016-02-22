@@ -1,0 +1,31 @@
+<!--For posttracking html I have designed the views in table for good visibility  -->
+<div class="container">
+	<h1>{Post Title} <br> Comments </h1>
+		<form action="postcomment" method="post">
+				<table border="0">
+					<tr>
+						<td>
+							<textarea name="message" rows="20" cols="45">	</textarea>
+						</td>
+						<div id="socialmedia">
+							<td rowspan="2">
+								 <td colspan="2">
+									 &nbsp;&nbsp;&nbsp;&nbsp;
+									<input type="checkbox" class="checkbox" name="SocialMedia">
+									<button ng-click="Facebook()" class="postbtn">Social Media</button>
+									 <br><br><br>
+									 &nbsp;&nbsp;&nbsp;&nbsp;
+									<input type="checkbox" class="checkbox" name="SocialMedia" >
+									<button ng-click="Linkedin()" class="postbtn">Social Media</button>
+
+									<br><br><br>
+									 &nbsp;&nbsp;&nbsp;&nbsp;
+									<input type="checkbox" class="checkbox" name="SocialMedia">
+									<button ng-click="Twitter()" class="postbtn">Social Media</button>
+								</td>
+							</td>
+						</div>
+					</tr>
+			    </table>
+			</form>
+		</div>
